@@ -1,2 +1,5 @@
 #!/bin/bash
 # Install script for Server1
+tar -xf dnslab.tar.gz
+cd dnslab
+python dnsserver01.py 10.0.130.7
